@@ -1,4 +1,4 @@
 ds=input('nhap chuoi: ').split()
-ds.append('abc')
+ds.sort()
 for i in ds:
     print(i)

@@ -1,5 +1,4 @@
-a="hello"
-b=a.split()
-print(b)
-c=" ".join(b)
-print(c)
+ds=input('nhap chuoi: ').split()
+x=ds[0:-1]
+for c in x:
+    print(c)
