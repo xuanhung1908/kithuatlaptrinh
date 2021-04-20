@@ -1,6 +1,9 @@
-n1=int(input("nhap n1 "))
-n2=int(input("nhap n2 "))
-if n1>n2:
-    print("n1 la so lon hon")
-else:
-    print("n2 la so lon hon")
+import mymath
+values=[2,4,6,8,10]
+print('squares:')
+for v in values:
+    print(mymath.square(v))
+print ('cubes:')
+for v in values:
+    print(mymath.cube(v))
+print('average' + str(mymath.average(values)))

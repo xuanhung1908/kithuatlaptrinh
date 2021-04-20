@@ -1,5 +1,3 @@
-n=int(input("nhap n "))
-if n % 2 == 0:
-    print("n la so chan")
-else:
-    print("n la so le")
+import numpy as np
+x=np.arange(12,38)
+print(x)
